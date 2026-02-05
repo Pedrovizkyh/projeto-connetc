@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
-import PaginaInicial from "./pages/PaginaInicial/PaginaInicial";
+import PaginaInicial from "./pages/paginaInicial/PaginaInicial";
 import Doacao from "./pages/doacao/Doacao"
 import Voluntario from "./pages/voluntario/Voluntario"
 import Mentoria from "./pages/mentoria/Mentoria"
