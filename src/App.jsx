@@ -5,6 +5,7 @@ import Doacao from "./pages/doacao/Doacao"
 import Voluntario from "./pages/voluntario/Voluntario"
 import Mentoria from "./pages/mentoria/Mentoria"
 import Eventos from "./pages/eventos/Eventos"
+import "./styles/globalStyles.scss"
 
 
 function App() {
