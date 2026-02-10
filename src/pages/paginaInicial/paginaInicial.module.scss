@@ -1,0 +1,40 @@
+section {
+    display: flex;
+    flex: 1;
+    margin: 0 44px;
+}
+
+.principal {
+    padding-top: 120px;
+    .texto {
+        font-size: 24px;
+    }
+    .articles {
+        display: flex;
+        article {
+            margin-right: 87px;
+        }
+    }
+
+    button {
+        margin: 50px 0;
+        display: flex;
+        padding: 15px 50px;
+        background-color: #FD7267;
+        color: white;
+        border: none;
+        cursor: pointer;
+        align-items: center;
+
+        img {
+            margin-left: 15px;
+        }
+    }
+}
+
+p {
+    color: #205691;
+}
+h2 {
+    color: #205691;
+}

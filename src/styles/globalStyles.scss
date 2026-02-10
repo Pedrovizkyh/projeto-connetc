@@ -1,3 +1,4 @@
+@use './variaveis';
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 // =============================================================================
@@ -19,6 +20,7 @@ h1 {
     font-family: "Source Sans 3", sans-serif;
     font-weight: bold;
     font-size: 90px;
+    color: variaveis.$cor_principal;
 }
 
 h2 {
@@ -36,11 +38,6 @@ h3 {
 button {
     font-family: "Source Sans 3", sans-serif;
     font-weight: 600;
-    font-size: 24px;
-}
-
-.texto {
-    font-family: Helvetica, sans-serif;
     font-size: 24px;
 }
 
