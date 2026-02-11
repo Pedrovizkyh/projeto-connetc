@@ -8,9 +8,9 @@ export default function Doacao() {
   return (
     <>
       <main>
-        <section>
+        <section className={s.section_main}>
           <h2>Doação</h2>
-        <div className={s.articles}>
+        <div className={s.articles_main}>
           <article>
             <img src={Caixas} alt="" />
             <h3>Instituto grande familia</h3>
