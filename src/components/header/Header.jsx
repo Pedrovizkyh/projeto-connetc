@@ -29,7 +29,7 @@ const Header = () => {
           <Link className={s.Link} to={"/doacao"}>Doação</Link>
           <Link className={s.Link} to={"/voluntario"}>Voluntariado</Link>
           <Link className={s.Link} to={"/mentoria"}>Mentoria</Link>
-          <Link className={s.Link} to={"/eventosEP"}>Eventos</Link>
+          <Link className={s.Link} to={"/eventos"}>Eventos</Link>
           </nav>)
         }
         
