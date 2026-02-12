@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './doacao.module.scss'
+import s from '../../styles/pages.module.scss'
 import Caixas from '../../assets/imagens/doacao/carregando-caixas.jpg'
 import Livros from '../../assets/imagens/doacao/livros.jpg'
 import Computador from '../../assets/imagens/doacao/computador-aberto.jpg'

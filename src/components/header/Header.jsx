@@ -27,7 +27,7 @@ const Header = () => {
         {!isMobile &&
           (<nav className={s.nav}>
           <Link className={s.Link} to={"/doacao"}>Doação</Link>
-          <Link className={s.Link} to={"/voluntariado"}>Voluntariado</Link>
+          <Link className={s.Link} to={"/voluntario"}>Voluntariado</Link>
           <Link className={s.Link} to={"/mentoria"}>Mentoria</Link>
           <Link className={s.Link} to={"/eventosEP"}>Eventos</Link>
           </nav>)
