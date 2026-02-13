@@ -6,6 +6,7 @@ import Voluntario from "./pages/voluntario/Voluntario"
 import Mentoria from "./pages/mentoria/Mentoria"
 import Eventos from "./pages/eventos/Eventos"
 import "./styles/globalStyles.scss"
+import Usuario from "./pages/usuario/Usuario";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/voluntario" element={<Voluntario/>}/>
           <Route path="/mentoria" element={<Mentoria/>}/>
           <Route path="/eventos" element={<Eventos/>}/>
+          <Route path="/usuario" element={<Usuario/>}/>
         </Routes>
       </BrowserRouter>
     </>
